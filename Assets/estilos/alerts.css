@@ -1,0 +1,11 @@
+/* Estilo para la alerta flotante */
+.alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    display: none;
+}

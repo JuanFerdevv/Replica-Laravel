@@ -1,0 +1,85 @@
+
+.fcuest{
+   display: flex;
+    width: 90%;
+    margin: 20px auto;
+    margin-left: 20px;
+
+}
+.fcuest .label{
+    display: flex;
+    float: left; /* Para que esté a la izquierda */
+    margin-right: 20px; /* Espacio entre el formulario y las cajas */
+    /* Ajusta el ancho según tus necesidades */
+    width: 150%;
+    margin: 0 10px;
+    margin-left: 20px;
+}
+.fcuest2 {
+    display: flex;
+    float: left; /* Para que esté a la izquierda */
+    margin-right: 20px; /* Espacio entre el formulario y las cajas */
+    /* Ajusta el ancho según tus necesidades */
+}
+.contenedor2 {
+    display: flex;
+    /* Add justify-content: flex-start to move the form to the left */
+    display: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(160, 5, 199, 0.2); 
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.contenedor2 select{
+    margin: 10px;
+    margin-left: 20px;
+}
+.contenedor2 button{
+    margin: 10px;
+    margin-left: 20px;
+   
+}
+
+
+.contenedor {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(160, 5, 199, 0.2);
+    margin: 20px;
+    margin-left: 20px;
+    padding-left: 1px; 
+    padding: auto;
+}
+
+.carta {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+figure {
+    margin-right: 20px;
+}
+
+figure img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.contenido {
+    flex: 1;
+}
+
+.contenido h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.contenido p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+
+/* Estilos adicionales según tus necesidades */

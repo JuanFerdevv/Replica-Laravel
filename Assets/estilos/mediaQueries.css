@@ -1,0 +1,29 @@
+@media only screen and (max-width:600px){
+    .navbar{
+        position: relative;
+    }
+    .navbar .menu{
+        display: block;
+        grid-column: 8;
+        font-size: 2em;
+        cursor: pointer;
+    }
+    .navbar .logo{
+        grid-column: 1/6;
+    }
+    .navbar .navlinks{
+        position: absolute;
+        width: 100%;
+        height: 70vh;
+        display: grid;
+        align-items: center;
+        background-color: #7740B7;
+        margin-top: 30em;
+        transform: translateX(170%);
+        transition: all 0.5s;
+    }
+    .navbar .navlinks-toggle{
+        transform: translateX(0%);
+        
+    }
+}

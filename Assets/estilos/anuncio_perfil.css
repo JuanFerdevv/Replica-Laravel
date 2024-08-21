@@ -1,0 +1,48 @@
+.contenedor {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    margin-left: 300px;
+    padding-left: 1px; 
+}
+ .titulo{
+    text-align: center;
+}
+.contenedor1 {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    margin-left: 300px;
+} 
+.carta {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+figure {
+    margin-right: 20px;
+}
+
+figure img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.contenido {
+    flex: 1;
+}
+
+.contenido h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.contenido p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+
+/* Estilos adicionales según tus necesidades */

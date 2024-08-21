@@ -1,0 +1,134 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+ 
+  font-family: 'Poppins', sans-serif;
+}
+h3{
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+body{
+
+  background: #41286A;
+}
+ .regresar{
+  text-decoration: none;
+  margin-left: 130px;
+  display: flex;
+}
+.wrapper{
+  display: flex;
+  position: relative;
+  display: flex;
+  padding: 0 35px;
+  min-height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper i{
+  top: 50%;
+  height: 44px;
+  width: 44px;
+  color: #343F4F;
+  cursor: pointer;
+  font-size: 1.5rem;
+  position: absolute;
+  text-align: center;
+  line-height: 44px;
+  background: #fff;
+  border-radius: 100%;
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.9);
+}
+.wrapper i:hover{
+  background: #f2f2f2;
+}
+.wrapper i:first-child{
+  left: 30px;
+  display: none;
+}
+.wrapper i:last-child{
+  right: 30px;
+}
+.wrapper .carousel{
+  font-size: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  border-radius: 8px;
+}
+.carousel.dragging{
+  cursor: grab;
+  scroll-behavior: auto;
+}
+.carousel.dragging img{
+  pointer-events: none;
+}
+.carousel img{
+  height: 340px;
+  object-fit: cover;
+  user-select: none;
+  margin-left: 14px;
+  width: calc(100% / 3);
+}
+.carousel img:first-child{
+  margin-left: 0px;
+}
+.wasap {
+    background-color: #4CAF50; 
+    border-radius: 10px; 
+    padding: 10px; 
+    color: white;
+    margin-top: 50px;
+    max-width: 300px; 
+    margin-left: 100px; 
+    margin-right: 20px;
+    grid-row: 1 / 2;
+    display: flex;
+}
+
+.textos{
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+a {
+    color: white; /* Color de letra blanco */
+}
+
+a:hover {
+    text-decoration: none; /* Eliminar subrayado en hover */
+}
+
+h2 {
+    color: white; /* Color de letra blanco */
+    margin-bottom: 10px; /* Espacio inferior entre títulos */
+}
+
+p {
+    color: white; /* Color de letra blanco */
+    margin-bottom: 10px; /* Espacio inferior entre párrafos */
+}
+@media screen and (max-width: 900px) {
+  .carousel img{
+    width: calc(120% / 2);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .carousel img{
+    width: 100%;
+  }
+}

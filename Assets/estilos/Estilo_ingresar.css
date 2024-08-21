@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+	
+/*/formulario inicio sesion/*/
+
+form {
+    width: 360px;
+height: 500px;
+flex-shrink: 0;
+    margin: 0 auto;
+  margin-top: 31px;
+    padding: 2%;
+    border-radius: 20px;
+background: #7740B7;
+}
+h1,h2,a{
+    color: #fff;
+}
+a{
+    text-decoration: none;  
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+input[type="submit"] {
+    background-color:#FFD62C;
+    color:#1b3039;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 35%;
+    margin-top: 10px; 
+    margin: bottom 20px; ; 
+}
+
+
+
+input[type="submit"]:hover {
+    background-color:#fff;
+    
+}
+
