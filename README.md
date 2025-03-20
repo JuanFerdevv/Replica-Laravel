@@ -14,13 +14,13 @@ Aquí algunas capturas del microframework en acción:
 - Paginación de resultados
 
 ## Uso
-- Las rutas se definen en `routes/web.php`
-- Los controladores están en `app/Controllers/`
-- Las vistas están en `resources/views/`
-- La configuración de la base de datos está en `config/database.php`
+- Las rutas se definen en `Rutas/web.php`
+- Los controladores están en `App/Controller/`
+- Las vistas están en `Resources/View/`
+- La configuración de la base de datos está en `Config/database.php`
 
 ## Contribución
-Este proyecto fue creado con fines educativos, pero cualquier sugerencia o mejora es bienvenida.
+Este proyecto fue creado con fines educativos en mi ultimo semestre universitario, pero cualquier sugerencia o mejora es bienvenida.
 
 ## Autor
-Desarrollado por Juan Fernando
+Desarrollado por Juan Calvache
