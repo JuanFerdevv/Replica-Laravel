@@ -5,8 +5,8 @@ Este es un microframework desarrollado en PHP puro, creado con el objetivo de en
 ## Capturas de pantalla
 Aquí algunas capturas del microframework en acción:
 
-![Página de inicio](screenshots/home.png)
-![Listado de usuarios](screenshots/code.png)
+![Directorio ](screenshoots/directory.png)
+
 ## Características
 - Arquitectura MVC
 - Enrutamiento dinámico
